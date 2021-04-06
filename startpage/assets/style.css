@@ -17,30 +17,28 @@ main {
 }
 
 .content {
-        width: 830px;
-        padding: 40px 10px;
+        width: 700px;
+        padding: 4px;
+        padding-bottom: 0;
         justify-content: space-between;
         align-items: center;
         border-radius: 5px;
         /*background-color: #20242d;*/
+        background-color: #272C33;
 }
 
 .bookmark { justify-content: space-between; }
 
 img {
-        width: 250px;
-        border-radius: 8px;
-        margin-right: 20px;
+        width: 180px;
+        border-radius: 3px;
 }
 
 p, a { color: #9cacad; }
 
-p { 
-        margin-bottom: 1rem;
-        font-size: 1.2rem; 
-}
+p { margin-bottom: 1rem; }
 
-.cat { margin-right: 30px; }
+.cat { margin-right: 25px; }
 
 .work p { color: #ff5555; }
 
@@ -52,6 +50,6 @@ p {
 
 ul { list-style: none; }
 
-li { line-height: 2em;}
+li { line-height: 2em; }
 
 a { text-decoration: none; }
